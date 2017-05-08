@@ -1,0 +1,28 @@
+.views-field.views-field-title {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.views-row {
+    margin-bottom: 30px;
+}
+.views-field.views-field-field-campo-disciplinario,
+.views-field.views-field-field-donde {
+    display: inline-block;
+}
+.views-field.views-field-field-campo-disciplinario .views-label,
+.views-field.views-field-field-donde .views-label {
+    display: inline-block;
+}
+.views-field.views-field-field-campo-disciplinario .field-content,
+.views-field.views-field-field-donde .field-content {
+    display: inline-block;
+    font-weight: bolder;
+}
+.views-field.views-field-field-campo-disciplinario .field-content:after {
+    content: "/";
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: normal
+}
+

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CM Nodo Cartográfico feature.
+ */
+
+include_once 'nodo_cartografico.features.inc';

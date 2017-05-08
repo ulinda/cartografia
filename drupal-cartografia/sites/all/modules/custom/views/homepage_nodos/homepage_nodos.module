@@ -1,0 +1,20 @@
+<?php
+/**
+ * @file
+ * Code for the CM - map feature.
+ */
+
+include_once 'homepage_nodos.features.inc';
+
+
+
+function cm_map_theme($existing, $type, $theme, $path) {
+
+    $items['views_view_unformatted__homepage_nodos'] = array(
+        'render element' => 'entity',
+        'path' => $path . '/templates',
+        'template' => 'views-view-unformatted--homepage-nodos',
+    );
+
+    return $items;
+}
